@@ -1,6 +1,6 @@
 package gphoto
 
-// #cgo LDFLAGS: -L/usr/lib/x86_64-linux-gnu -lgphoto2 -lgphoto2_port
+// #cgo pkg-config: libgphoto2
 // #cgo CFLAGS: -I/usr/include
 // #include <gphoto2/gphoto2.h>
 // #include <stdlib.h>
